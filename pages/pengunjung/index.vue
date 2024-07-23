@@ -8,9 +8,9 @@
                 </nuxt-link>
                 <div class="my-3">
                     <form @submit.prevent="getpengunjung">
-                    <input type="search" class="form-control form-control-lg rounded-5" placeholder="Search">   
+                        <input v-model="keyword " type="search" class="form-control form-control-lg rounded-5" placeholder="Search">   
                     </form>        
-                </div>
+                
                 <div class="my-3 text-muted">menampilkan {{ visitors.length }} dari {{ jumlah }}</div>
                 <table class="table">
                     <thead>
@@ -32,6 +32,7 @@
                 </table>
             </div>
         </div>
+    </div>
     </div>
  </template>
 
