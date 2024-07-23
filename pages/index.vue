@@ -30,7 +30,7 @@
            <nuxt-link to="/pengunjung">
              <div class="card bg-warning rounded-5">
                <div class="card-body">
-                 <h3 class="font"> {{ jumlahhpengunjung}} pengunjung</h3>
+                 <h3 class="font"> {{ jumlahpengunjung }} pengunjung</h3>
                </div>
              </div>
           </nuxt-link>
