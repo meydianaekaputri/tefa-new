@@ -15,7 +15,7 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <td>#</td>
+                            <td>NO</td>
                             <td>NAMA</td>
                             <td>KEANGGOTAAN</td>
                             <td>WAKTU</td>
